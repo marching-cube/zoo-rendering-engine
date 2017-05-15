@@ -1,0 +1,13 @@
+Fresnel F0 is reflectance at normal incidence (for skin use 0.028).
+
+In order to display tree_pretty:
+- disable mipmaps,
+- disable blending,
+- enable alpha discard.
+
+Shadows can be only render, if configured with a .txt file. By default only wheel.obj is configured as such.
+
+'Debug shadow' switch shows model from the sun perspective. However configuration is fixed now to show wheel.obj, and may not work well with other models.
+
+hemisphere ambient lighting is implemented now with source of light as 'up'; 
+could get better results, probably, weighting standard diffusion and standard hemisphere 

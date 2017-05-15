@@ -1,0 +1,13 @@
+Parameters used to compile the main shader:
+PHONG - simple Phong equation
+PERFRAGMENT - simple Phong equation per fragment
+FRESNEL - Phong equation with Fresnel applied to shinies
+UV - texture support
+SHADOW - shadow rendering support
+WGLOW - experimental: white glow effect
+BGLOW - experimental: black contour effect
+QUANTIFY8 - experimental: color quanitfication, 8 per channel
+QUANTIFY4 - experimental: color quanitfication, 4 per channel
+ALPHADISCARD - discard fragments with alpha == 0
+HEMISPHERE - simplified hemisphere lightning 
+BUMP - normal bump map enabled; disables HEMISPHERE;

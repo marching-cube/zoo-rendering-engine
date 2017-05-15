@@ -1,0 +1,2 @@
+Model::sand  flat
+Model::fence flat

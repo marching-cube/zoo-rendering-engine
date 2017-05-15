@@ -1,0 +1,23 @@
+default				cshadow
+Ground_Plane.002	-cshadow
+Ground_Plane.002	dshadow -cshadow
+Base_Plane.003      select
+Base.002_Plane.017  instance
+Wheel_Plane.001     rotate:x    parent
+default             rotate:x,ty,-1.0
+Car.008_Plane.019   car008.png  select
+Car.001_Plane.010   car010.png  instance
+Car.002_Plane.004   car008.png  instance
+Car.003_Plane.005   car009.png  instance
+Car.004_Plane.006   car010.png  instance
+Car.005_Plane.007   car008.png  instance
+Car.006_Plane.008   car009.png  instance
+Car.007_Plane.009   car010.png  instance
+Car.009_Plane.020   car009.png  instance
+Car.010_Plane.021   car010.png  instance
+Car.011_Plane.016   car008.png  instance
+Car.012_Plane.015   car009.png  instance
+Car.013_Plane.014   car010.png  instance
+Car.014_Plane.013   car008.png  instance
+Car.015_Plane.012   car009.png  instance
+Car.016_Plane.011   car010.png  instance

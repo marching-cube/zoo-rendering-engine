@@ -1,0 +1,5 @@
+Model::ground_backup	delete
+Model::reference		delete
+
+default notex nflip
+ground_backup_Plane.015 delete

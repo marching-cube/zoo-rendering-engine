@@ -1,0 +1,37 @@
+Model
+Model				ojipark.developer.model				0	%A
+Custom settings		ojipark.developer.customsettings	0	%B
+
+Debug
+Show FPS			ojipark.developer.showfps			1
+Debug shadow		ojipark.developer.debugshadow		0
+Strip shadows		ojipark.developer.stripshadows		0
+Strip textures		ojipark.developer.striptextures		0
+PVRTC               ojipark.developer.pvrtc             0
+
+Sun
+Enabled				ojipark.developer.lightenabled		1
+Hemisphere			ojipark.developer.hemisphere		0	o
+Blue sky			ojipark.developer.bluesky			1	o
+Red light			ojipark.developer.redlight			0	o
+Top (vs top-side)	ojipark.developer.sunposition		0	o
+Global ambient		ojipark.developer.globalambient		0	o
+
+Shader compilation
+Phong 				ojipark.developer.phong				1	e
+Phong PF			ojipark.developer.perfragment		0	e
+Fresnel				ojipark.developer.fresnel			0	
+>F0					ojipark.developer.fresnel.param0	0.05	%f	o
+>pow				ojipark.developer.fresnel.param1	0.20	%f	o
+White glow			ojipark.developer.whiteglow			0	e
+Black glow			ojipark.developer.blackglow			0	e
+Alpha discard		ojipark.developer.alphadiscard		0
+Quantify 8			ojipark.developer.quantify8			0	e
+Quantify 4			ojipark.developer.quantify4			0	e
+
+OpenGL settings
+Culling				ojipark.developer.culling			0
+Blending			ojipark.developer.blending			0
+Multisampling		ojipark.developer.multisampling		1
+Mipmaps				ojipark.developer.mipmaps			1
+
