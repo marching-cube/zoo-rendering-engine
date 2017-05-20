@@ -15,15 +15,15 @@ New 3D application should probably be implemented in Unity or Apple's SceneKit, 
 
 While I do not plan to put much work into this project anymore, I would like to see it functional and modern again. The minimalistic TODO list is as follows:
 
-make it build and run with the current Xcode,
-create a storyboard, 
-upgrade to OpenGL ES 3.0,
-extract rendering code from VC,
-fix the Ferris wheel animation,
-drop some more extravagant features (like Fresnel effect),
-optimise .obj reading code (very slow for not-trivial models),
-add Mac support,
-port to Swift (maybe?).
+* (DONE) make it build and run with the current Xcode,
+* create a storyboard, 
+* upgrade to OpenGL ES 3.0,
+* extract rendering code from VC,
+* fix the Ferris wheel animation,
+* drop some more extravagant features (like Fresnel effect),
+* optimise .obj reading code (very slow for not-trivial models),
+* add Mac support,
+* port to Swift (maybe?).
 
 # Copyrights and other legalities
 
