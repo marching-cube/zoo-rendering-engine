@@ -29,7 +29,7 @@
 @property NSMutableArray*   fragments;
 
 // others
-@property (weak, nonatomic) id modelSource;
+@property (strong, nonatomic) id modelSource; // TODO: changed weak -> strong to make it work with newer iOS
 @property (strong) NSString*   objectKey;
 
 
