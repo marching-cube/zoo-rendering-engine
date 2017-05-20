@@ -521,7 +521,7 @@
         tvc += [self totalVertexCountForProgram: program];
         tfc += [self totalFaceCountForProgram: program];
     }
-    printf("Objects:   %d\n", objects.count);
+    printf("Objects:   %lu\n", (unsigned long)objects.count);
     printf("Vertices:  %d\n", tvc);
     printf("Faces:     %d\n", tfc);
     printf("\n");

@@ -20,13 +20,13 @@
     CGRect rect = CGRectMake(0, 0, self.view.frame.size.width, 44);
     UIToolbar* aToolbar = [[UIToolbar alloc] initWithFrame: rect];
     
-    NSArray* items = @[[[UIBarButtonItem alloc] initWithTitle:@"+" style:UIBarButtonItemStyleBordered target:self action:@selector(zoomIn:)],
-                        [[UIBarButtonItem alloc] initWithTitle:@"-" style:UIBarButtonItemStyleBordered target:self action:@selector(zoomOut:)],
-                        [[UIBarButtonItem alloc] initWithTitle:@"C" style:UIBarButtonItemStyleBordered target:self action:@selector(center:)],
-                        [[UIBarButtonItem alloc] initWithTitle:@"GPS" style:UIBarButtonItemStyleBordered target:self action:@selector(gps:)],
-                        [[UIBarButtonItem alloc] initWithTitle:@"Walk" style:UIBarButtonItemStyleBordered target:self action:@selector(walk:)],
-                        [[UIBarButtonItem alloc] initWithTitle:@"Demo" style:UIBarButtonItemStyleBordered target:self action:@selector(demo:)],
-                        [[UIBarButtonItem alloc] initWithTitle:@"X" style:UIBarButtonItemStyleBordered target:self action:@selector(close:)]];
+    NSArray* items = @[[[UIBarButtonItem alloc] initWithTitle:@"+" style:UIBarButtonItemStylePlain target:self action:@selector(zoomIn:)],
+                        [[UIBarButtonItem alloc] initWithTitle:@"-" style:UIBarButtonItemStylePlain target:self action:@selector(zoomOut:)],
+                        [[UIBarButtonItem alloc] initWithTitle:@"C" style:UIBarButtonItemStylePlain target:self action:@selector(center:)],
+                        [[UIBarButtonItem alloc] initWithTitle:@"GPS" style:UIBarButtonItemStylePlain target:self action:@selector(gps:)],
+                        [[UIBarButtonItem alloc] initWithTitle:@"Walk" style:UIBarButtonItemStylePlain target:self action:@selector(walk:)],
+                        [[UIBarButtonItem alloc] initWithTitle:@"Demo" style:UIBarButtonItemStylePlain target:self action:@selector(demo:)],
+                        [[UIBarButtonItem alloc] initWithTitle:@"X" style:UIBarButtonItemStylePlain target:self action:@selector(close:)]];
     aToolbar.items = items;
     aToolbar.barStyle = UIBarStyleBlackTranslucent;
     [self.view addSubview:aToolbar];

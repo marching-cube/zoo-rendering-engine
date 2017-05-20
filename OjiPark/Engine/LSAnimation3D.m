@@ -134,7 +134,7 @@
 @implementation LSAnimation3DProjection
 
 -(void) updateAnimation:(NSTimeInterval)t {
-    float aspect = fabsf(self.view.frame.size.width/self.view.frame.size.height);
+    float aspect = fabs(self.view.frame.size.width/self.view.frame.size.height);
     animationMatrix = GLKMatrix4MakePerspective(GLKMathDegreesToRadians(35.0f), aspect, 0.1f, 100.0f);
 }
 

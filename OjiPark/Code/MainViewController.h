@@ -11,7 +11,6 @@
 @interface MainViewController : UIViewController
 
 - (IBAction)launchOjiParkMap:(id)sender;
-- (IBAction)launchDeveloperMode:(id)sender;
 - (IBAction)launchDocumentation:(id)sender;
 
 @end

@@ -98,6 +98,8 @@
 		B2CB6F2715E74AAD00A0BA08 /* Shadow.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B2CB6F2215E747B000A0BA08 /* Shadow.fsh */; };
 		B2CB6F2815E74AAD00A0BA08 /* Shadow.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B2CB6F2315E747B000A0BA08 /* Shadow.vsh */; };
 		B2D7B30015AFE53D0046EF24 /* map20120712.txt in Resources */ = {isa = PBXBuildFile; fileRef = B2D7B2FF15AFE53D0046EF24 /* map20120712.txt */; };
+		B2D96B731ED00E4400CDAC4D /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D96B721ED00E4400CDAC4D /* Storyboard.storyboard */; };
+		B2D96B751ED0123600CDAC4D /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D96B741ED0123600CDAC4D /* Launch.storyboard */; };
 		B2D973EE15E65235003154B7 /* forest144.txt in Resources */ = {isa = PBXBuildFile; fileRef = B2D973ED15E65235003154B7 /* forest144.txt */; };
 		B2D9908A15B8F17C0007C6CA /* LSView3D.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D9908915B8F17C0007C6CA /* LSView3D.m */; };
 		B2D9911515B921D00007C6CA /* Render.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B2D990FD15B9217F0007C6CA /* Render.fsh */; };
@@ -114,9 +116,7 @@
 		B2DE467F15D4D1DB008FE38D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DE467D15D4D1DB008FE38D /* AppDelegate.m */; };
 		B2DE468015D4D1DB008FE38D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DE467E15D4D1DB008FE38D /* main.m */; };
 		B2DE468415D4D297008FE38D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DE468215D4D297008FE38D /* MainViewController.m */; };
-		B2DE468515D4D297008FE38D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2DE468315D4D297008FE38D /* MainViewController.xib */; };
 		B2DE468E15D4E0D2008FE38D /* DeveloperModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DE468C15D4E0D2008FE38D /* DeveloperModeViewController.m */; };
-		B2DE468F15D4E0D2008FE38D /* DeveloperModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2DE468D15D4E0D2008FE38D /* DeveloperModeViewController.xib */; };
 		B2DE469615D4E415008FE38D /* ModelChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DE469515D4E415008FE38D /* ModelChoiceViewController.m */; };
 		B2E3947F16B117B1007EFD21 /* LSMaterial3DCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E3947E16B117B1007EFD21 /* LSMaterial3DCache.m */; };
 		B2E976A416AE592F00D18099 /* LSMaterial3D.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E976A316AE592F00D18099 /* LSMaterial3D.m */; };
@@ -253,6 +253,8 @@
 		B2CB6F2215E747B000A0BA08 /* Shadow.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shadow.fsh; sourceTree = "<group>"; };
 		B2CB6F2315E747B000A0BA08 /* Shadow.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shadow.vsh; sourceTree = "<group>"; };
 		B2D7B2FF15AFE53D0046EF24 /* map20120712.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = map20120712.txt; sourceTree = "<group>"; };
+		B2D96B721ED00E4400CDAC4D /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		B2D96B741ED0123600CDAC4D /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		B2D973ED15E65235003154B7 /* forest144.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = forest144.txt; sourceTree = "<group>"; };
 		B2D9908815B8F17C0007C6CA /* LSView3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LSView3D.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		B2D9908915B8F17C0007C6CA /* LSView3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LSView3D.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -272,10 +274,8 @@
 		B2DE467E15D4D1DB008FE38D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2DE468115D4D297008FE38D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		B2DE468215D4D297008FE38D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		B2DE468315D4D297008FE38D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		B2DE468B15D4E0D2008FE38D /* DeveloperModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeveloperModeViewController.h; sourceTree = "<group>"; };
 		B2DE468C15D4E0D2008FE38D /* DeveloperModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeveloperModeViewController.m; sourceTree = "<group>"; };
-		B2DE468D15D4E0D2008FE38D /* DeveloperModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeveloperModeViewController.xib; sourceTree = "<group>"; };
 		B2DE469415D4E415008FE38D /* ModelChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelChoiceViewController.h; sourceTree = "<group>"; };
 		B2DE469515D4E415008FE38D /* ModelChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelChoiceViewController.m; sourceTree = "<group>"; };
 		B2E3947D16B117B1007EFD21 /* LSMaterial3DCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSMaterial3DCache.h; sourceTree = "<group>"; };
@@ -491,7 +491,6 @@
 				B2DE467D15D4D1DB008FE38D /* AppDelegate.m */,
 				B2DE468B15D4E0D2008FE38D /* DeveloperModeViewController.h */,
 				B2DE468C15D4E0D2008FE38D /* DeveloperModeViewController.m */,
-				B2DE468D15D4E0D2008FE38D /* DeveloperModeViewController.xib */,
 				B2FA29D915EFB264001D1C9E /* DocumentationEntry.h */,
 				B2FA29DA15EFB264001D1C9E /* DocumentationEntry.m */,
 				B202FC6215EA2AD7002FF7BA /* DocumentationList.h */,
@@ -499,7 +498,6 @@
 				B2DE467E15D4D1DB008FE38D /* main.m */,
 				B2DE468115D4D297008FE38D /* MainViewController.h */,
 				B2DE468215D4D297008FE38D /* MainViewController.m */,
-				B2DE468315D4D297008FE38D /* MainViewController.xib */,
 				B2DE469415D4E415008FE38D /* ModelChoiceViewController.h */,
 				B2DE469515D4E415008FE38D /* ModelChoiceViewController.m */,
 				B2F4705A15E67572005E7832 /* ModelViewController.h */,
@@ -553,6 +551,8 @@
 				B2FA29DE15EFB3EB001D1C9E /* doc.config.txt */,
 				B2FA29DF15EFB3EB001D1C9E /* doc.shader.txt */,
 				B278ED7B15AAAE870074D66E /* TODO */,
+				B2D96B721ED00E4400CDAC4D /* Storyboard.storyboard */,
+				B2D96B741ED0123600CDAC4D /* Launch.storyboard */,
 			);
 			path = OjiPark;
 			sourceTree = "<group>";
@@ -607,7 +607,7 @@
 		B2F69F7015A3FA820073901F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Mouse Inc.";
 				TargetAttributes = {
 					B2F69F7815A3FA820073901F = {
@@ -679,8 +679,6 @@
 				B2440A0615D345240071CE38 /* tree.obj in Resources */,
 				B2440A0915D3482F0071CE38 /* tree_pretty.mtl in Resources */,
 				B2440A0A15D3482F0071CE38 /* tree_pretty.obj in Resources */,
-				B2DE468515D4D297008FE38D /* MainViewController.xib in Resources */,
-				B2DE468F15D4E0D2008FE38D /* DeveloperModeViewController.xib in Resources */,
 				B2124CEB15E3556000335F6F /* devoptions.txt in Resources */,
 				B2124CEE15E35AF800335F6F /* llama04.jpg in Resources */,
 				B2124CF115E35C8D00335F6F /* llama04.mtl in Resources */,
@@ -695,10 +693,12 @@
 				B2FBED8F16ACEF0300AB1426 /* monkey.mtl in Resources */,
 				B2FBED9016ACEF0300AB1426 /* monkey.obj in Resources */,
 				B2FBED9316AD20A300AB1426 /* map20130120.txt in Resources */,
+				B2D96B731ED00E4400CDAC4D /* Storyboard.storyboard in Resources */,
 				B2FBED9916AD2DFD00AB1426 /* ground.jpg in Resources */,
 				B2FBED9A16AD2DFD00AB1426 /* panda_wall.jpg in Resources */,
 				B2FBED9B16AD2DFD00AB1426 /* rock001.jpg in Resources */,
 				B2FBED9C16AD2DFD00AB1426 /* tree2_new.png in Resources */,
+				B2D96B751ED0123600CDAC4D /* Launch.storyboard in Resources */,
 				B2FBED9D16AD2DFD00AB1426 /* wood-fence.png in Resources */,
 				B221365716B94D1A00BC9A56 /* map20130128.mtl in Resources */,
 				B221365816B94D1A00BC9A56 /* map20130128.obj in Resources */,
@@ -799,16 +799,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nobuyuki Yamasaki (2JT3XGNVN6)";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -816,10 +823,14 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "00C8068D-CE02-4DF2-AB19-5BF2079C30FF";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
@@ -830,20 +841,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lukasz Sowinski";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B5321F3F-DD49-4BAC-9BAD-A6A774342E3D";
 				RUN_CLANG_STATIC_ANALYZER = YES;
@@ -860,7 +880,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OjiPark/OjiPark-Prefix.pch";
 				INFOPLIST_FILE = "OjiPark/OjiPark-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "en.gosen.niman.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = OjiPark;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -877,7 +898,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OjiPark/OjiPark-Prefix.pch";
 				INFOPLIST_FILE = "OjiPark/OjiPark-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "en.gosen.niman.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = OjiPark;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

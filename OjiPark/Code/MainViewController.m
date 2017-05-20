@@ -33,12 +33,6 @@
     [self.navigationController pushViewController:viewController animated:YES];
 }
 
-- (IBAction)launchDeveloperMode:(id)sender
-{
-    DeveloperModeViewController* viewController = [[DeveloperModeViewController alloc] init];
-    [self.navigationController pushViewController:viewController animated:YES];
-}
-
 - (IBAction)launchDocumentation:(id)sender
 {
     DocumentationList* viewController = [[DocumentationList alloc] init];

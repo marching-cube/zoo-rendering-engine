@@ -17,9 +17,14 @@
 @implementation DeveloperModeViewController
 @synthesize tableView;
 
-- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+-(instancetype)initWithCoder:(NSCoder *)aDecoder {
+    self = [super initWithCoder:aDecoder];
+//    return self;
+//}
+//
+//- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+//{
+//    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self)
     {
         NSString* fname = [[NSBundle mainBundle] extendedPathForResource:@"devoptions.txt"];
@@ -230,7 +235,7 @@
             [(UISlider*)cell.accessoryView addTarget:self action:@selector(sliderAdjusted:) forControlEvents: UIControlEventValueChanged];
             [(UISlider*)cell.accessoryView setContinuous: YES];
             UILabel* label = [[UILabel alloc] initWithFrame: CGRectMake(150, 8, 50, 23)];
-            label.textAlignment = UITextAlignmentRight;
+            label.textAlignment = NSTextAlignmentRight;
             label.backgroundColor = [UIColor clearColor];
             label.text = @"100%";
             label.tag = 10;
